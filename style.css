@@ -1,0 +1,99 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    margin: 0;
+    color: brown;
+}
+a {
+    color: brown; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding around the link */
+    border-radius: 5px; /* Rounded corners */
+}
+/* Hover effect */
+a:hover {
+    background-color: floralwhite; /* Background color on hover */
+    color: beige; /* Text color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+/* Active link styling */
+a:active {
+    background-color: beige; /* Background color when active */
+    color: #fff; /* Text color when active */
+}
+/* Visited link styling */
+a:visited {
+    color: brown; /* Color for visited links */
+}
+.receipt {
+    background-color: floralwhite;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.store-name {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.store-address, .date {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+.items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.items th, .items td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+.totals {
+    margin-top: 10px;
+}
+.totals p {
+    text-align: right;
+    margin: 0;
+}
+.carousel {
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.button-style
+{
+    color: brown;
+    background-color: floralwhite;
+    border-color: brown;
+    border-radius: 5px;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
